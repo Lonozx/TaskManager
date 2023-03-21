@@ -1,0 +1,14 @@
+.employees{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px;
+    &__cart{
+        border: 1px solid;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}

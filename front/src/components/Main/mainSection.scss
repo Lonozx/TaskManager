@@ -1,0 +1,44 @@
+.cart-create{
+    width: 300px;
+    height: 100px;
+    background-color: #E37E7E;
+    border: 1px solid;
+    // font-family: 'ArcadeClassic', sans-serif;
+    font-family: 'Cyrillic Pixel-7', sans-serif;
+    &:hover{
+        background-color: #e87474;
+        cursor: pointer;
+    }
+}
+
+.input-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+    padding: 10px 0px;
+}
+.rights{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.cheers{
+    align-self: center;
+}
+.ticket{
+    border: none;
+    border-bottom: 1px solid;
+    background: transparent;
+}
+.title-ticket{
+
+}
+.description-ticket{
+    height: 100px;
+    width: 300px;
+}
+
+.office-ticket{
+
+}
