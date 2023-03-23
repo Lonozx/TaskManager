@@ -1,14 +1,27 @@
 .employees{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
-    padding: 10px 0px;
+    padding: 10px 10px;
+   
     &__cart{
         border: 1px solid;
         padding: 10px;
+        width: 420px;
         display: flex;
         flex-direction: column;
         gap: 10px;
         justify-content: center;
         align-items: center;
+        background: white;
+    }
+}
+
+.photo-avatar{
+    width: 400px;
+    &:hover{
+        transform: scale(1.03);
+        transition: 0.1s ease-in-out;
     }
 }

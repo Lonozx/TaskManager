@@ -33,13 +33,7 @@ export default function Cart() {
       getTaskList()
     }, [])
     
-    const publishTask = async() =>{
-      try{
-      await addDoc(taskCollectionReference, {title: title, description: description, office: office, 
-        isDone: isdone} )
-        getTaskList()
-      }catch(err){console.error(err)}
-    }
+  
     let yellow = '#FFF';
     const [bgColor, setBgColor] = useState(yellow);
     const acceptTask=()=>{
@@ -49,6 +43,7 @@ export default function Cart() {
     const deleteTask=async(id)=>{
       const taskDoc = doc(db, 'tasks', id)
       await deleteDoc(taskDoc)
+      getTaskList()
     }
     const updateTask=async(id)=>{
       const taskDoc = doc(db, 'tasks', id)

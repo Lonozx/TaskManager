@@ -1,5 +1,6 @@
 [
 {
+    "photo": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg",
     "name": "Костянтин Савічев",
     "age": 36,
     "bio": "Працював на підприємстві ТІС з 2016 року, тоді почався мій професійний шлях як фахівця ІТ. Після цього я знайшов для себе ТД 'Одескабель', де винайшов свою професію заново!",
@@ -7,24 +8,44 @@
     "onduty": true
 },
 {
-    "name": "Костянтин Савічев",
+    "photo": "https://img.freepik.com/premium-photo/expressive-young-man-posing_163305-51639.jpg",
+    "name": "Федотов Олександр",
     "age": 36,
     "bio": "Працював на підприємстві ТІС з 2016 року, тоді почався мій професійний шлях як фахівця ІТ. Після цього я знайшов для себе ТД 'Одескабель', де винайшов свою професію заново!",
     "rate": "⭐⭐⭐⭐⭐",
     "onduty": true
 },
 {
-    "name": "Костянтин Савічев",
+    "photo": "https://img.freepik.com/free-photo/distressed-man-make-gun-near-forehead-sign-killing-himself-from-annoyance_176420-17991.jpg",
+    "name": "Крамольский Леонід",
     "age": 36,
     "bio": "Працював на підприємстві ТІС з 2016 року, тоді почався мій професійний шлях як фахівця ІТ. Після цього я знайшов для себе ТД 'Одескабель', де винайшов свою професію заново!",
     "rate": "⭐⭐⭐⭐⭐",
     "onduty": true
 },
 {
-    "name": "Костянтин Савічев",
+    "photo": "https://img.freepik.com/free-photo/close-up-confident-male-employee-white-collar-shirt-smiling-camera-standing-self-assured-against-studio-background_1258-26761.jpg?w=996&t=st=1679519010~exp=1679519610~hmac=42ebe5d3a40d465a9d7b9a8cc9b0d1125b091605d73d8ad5e1dee2af98fc1433",
+    "name": "Бодан Ніколай",
     "age": 36,
     "bio": "Працював на підприємстві ТІС з 2016 року, тоді почався мій професійний шлях як фахівця ІТ. Після цього я знайшов для себе ТД 'Одескабель', де винайшов свою професію заново!",
     "rate": "⭐⭐⭐⭐⭐",
+    "onduty": true
+},
+{
+    "photo": "https://img.freepik.com/free-photo/expressive-redhead-guy-beige-shirt_176420-32318.jpg?w=996&t=st=1679518909~exp=1679519509~hmac=2b39ba4d6623bbabf70cf985c85507ea86668a3081ad76b988c408f52dc09dcf",
+    "name": "Хорун Дмитро",
+    "age": 36,
+    "bio": "Працював на підприємстві ТІС з 2016 року, тоді почався мій професійний шлях як фахівця ІТ. Після цього я знайшов для себе ТД 'Одескабель', де винайшов свою професію заново!",
+    "rate": "⭐⭐⭐⭐⭐",
+    "onduty": true
+},
+{
+    "photo": "https://kofemolotoff.ru/_sh/14/1465_2.jpg",
+    "name": "Рахат Лукум",
+    "age": 24,
+    "bio": "Гарно до кави",
+    "rate": "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐",
     "onduty": true
 }
+
 ]

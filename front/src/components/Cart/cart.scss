@@ -16,7 +16,7 @@
                 width: 290px;
                 min-height: 300px;
                 max-height: 400px;
-                
+                background: white;
                 padding: 10px;
                 
                 display: flex;
@@ -36,23 +36,25 @@
 }
 .cart-deny{
     width: 100px;
-    background-color: #E37E7E;
+    background-color: #041f60;
     height: 50px;
     border: 1px solid;
+    color: white;
     &:hover{
-        background-color: #e87474;
+        background-color: #233e7d;
         cursor: pointer;
         
     }
 }
 .cart-apply{
     width: 100px;
-    background-color: #E37E7E;
+    color: white;
+    background-color: #041f60;
     height: 50px;
     border: 1px solid;
-    font-family: 'Cyrillic Pixel-7', sans-serif;
+    // font-family: 'Cyrillic Pixel-7', sans-serif;
     &:hover{
-        background-color: #e87474;
+        background-color: #233e7d;
         cursor: pointer;
     }
 }
