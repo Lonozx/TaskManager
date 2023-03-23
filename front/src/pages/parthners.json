@@ -11,14 +11,23 @@
     },
     {
         "img":"https://odeskabel.com/images/thumbnails/images/portfolio/arcelor_mittal.svg-fit-300x134.png",
-        "title": "ЕВРАЗ Украина"
+        "title": "АрселорМиттал Кривой Рог (Криворожсталь)",
+        "link":"https://ukraine.arcelormittal.com/index.php"
     },
     {
-        "img":"https://odeskabel.com/images/thumbnails/images/portfolio/evraz_logo-fit-300x90.jpg",
-        "title": "ЕВРАЗ Украина"
+        "img":"https://odeskabel.com/images/thumbnails/images/portfolio/euroformat_logo-fit-220x147.png",
+        "title": "«Евроформат»",
+        "link": "https://euroformat.com/company/info"
     },
     {
-        "img":"https://odeskabel.com/images/thumbnails/images/portfolio/evraz_logo-fit-300x90.jpg",
-        "title": "ЕВРАЗ Украина"
+        "img":"https://odeskabel.com/images/thumbnails/images/portfolio/otis_logo-fit-220x220.jpg",
+        "title": "ПрАТ «ОТІС»",
+        "link": "http://www.otisworldwide.com/site/ua/pages/ContactOtisKyiv.aspx"
     },
+    {
+        "img":"https://odeskabel.com/images/thumbnails/images/portfolio/ugv_logo_2-1024x424-fit-299x124.png",
+        "title": "АО «Укргаздобыча» (УГД)",
+        "link": "http://ugv.com.ua/"
+    }
+  
 ]

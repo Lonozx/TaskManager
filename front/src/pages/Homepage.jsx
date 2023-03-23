@@ -1,4 +1,6 @@
 import "./homepage.scss";
+import parthners from "./parthners.json";
+import HomeSwipe from "../components/swipers/swiper_home";
 
 export default function Homepage() {
   return (
@@ -8,11 +10,7 @@ export default function Homepage() {
         src="https://scontent.fods1-1.fna.fbcdn.net/v/t39.30808-6/271800785_1382167525568938_4854358669842992514_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=kRp3UZA7kNUAX-EMula&_nc_oc=AQmg9LJTNTYGHVtWyapy8DLbnC8DF7IfUWtCQg9nZnbSqBwbhpuiudEfHk-NlwBtX1g&_nc_ht=scontent.fods1-1.fna&oh=00_AfDTQyUBu6f-L3YiWzjvROcU-bQu_nvizAAIpfsvmds0Lg&oe=64223EAB"
       ></img>
       <div className="containerh">
-        <img
-          className="building"
-          src="https://odeskabel.com/images/stories/odeskabel_2.jpg"
-          alt=""
-        />
+        <HomeSwipe />
         <div className="containerh__themes">
           <div className="sub-themes">
             <h2>Широкий спектр продукції</h2>
@@ -84,6 +82,22 @@ export default function Homepage() {
             необхідності скачати сертифікати відповідності якості випускається
             нами.
           </p>
+        </div>
+      </div>
+      <div className="containerh__parthners">
+        <h2>Наші партнери</h2>
+        <div className="parthners">
+          {parthners.map((item) => {
+            return (
+              <div className="parthners__cart">
+                <img className="parthners__img" src={item.img} />
+                <p className="part-title">{item.title}</p>
+                <a target="blanc" className="part" href={item.link}>
+                  # {item.link}
+                </a>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

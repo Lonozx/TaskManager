@@ -48,7 +48,13 @@ export default function Main() {
       console.log("Field is emply");
     }
   };
-
+  function accept() {
+    return (
+      <div className="acception">
+        <h2>Білетик відправлено!</h2>
+      </div>
+    );
+  }
   const publishTask = async () => {
     try {
       await addDoc(taskCollectionReference, {
@@ -57,10 +63,11 @@ export default function Main() {
         office: office,
         isDone: isdone,
       });
+      accept();
       setTitle("");
       setDescription("");
       setOffice("");
-      getTaskList();
+      // getTaskList();
     } catch (err) {
       console.error(err);
     }

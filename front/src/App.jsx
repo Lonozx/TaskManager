@@ -7,6 +7,7 @@ import Main from "./components/Main/Main";
 import Homepage from "./pages/Homepage";
 import { Routes, Route, Router } from "react-router-dom";
 import Header from "./common/Header/Header";
+import Footer from "./common/Footer/Footer";
 import Employees from "./pages/Employees";
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
           <Route path="/tickets" element={<Cart />} />
           <Route path="/employees" element={<Employees />} />
         </Routes>
+        <Footer />
+
         {/* <Main/>
       <Cart/> */}
       </div>

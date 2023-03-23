@@ -5,11 +5,14 @@
     align-items: center;
     padding: 10px;
     overflow-x: hidden;
+    
 }
 
 .containerh{
     display: flex;
     padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
     @media (max-width:768px) {
         flex-wrap: wrap;
     }
@@ -34,8 +37,18 @@
             max-width: 400px;
         }
     }
+    &__parthners{
+        padding: 50px 0px;
+       align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
+.part{
+    color: #000;
+}
 .image-board{
     object-fit: contain;
     width: 97vw;
@@ -54,4 +67,40 @@
 }
 .article{
     padding: 5px;
+}
+
+.parthners{
+    // background: white;
+    width: 70vw;
+    display: flex;
+    animation: marquee 16s linear infinite;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    // flex-wrap: wrap;
+    // overflow: hidden;
+    &__cart{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+    &__img{
+        width: 180px;
+        height: 100px;
+    }
+}
+.part-title{
+    color: grey;
+}
+
+@keyframes marquee{
+    0% {
+        transform: translateX(0)
+    }
+    50% {
+        transform: translateX(-30%)
+    }
 }
