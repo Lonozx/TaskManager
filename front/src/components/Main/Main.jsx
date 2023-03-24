@@ -117,6 +117,7 @@ export default function Main() {
           Заслати задачку, козаче!
         </button>
       </div>
+      <div className="poor-admin"></div>
     </div>
   );
 }

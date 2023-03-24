@@ -5,6 +5,7 @@
     background-color: #041f60;
     color: white;
     border: 1px solid;
+    font-size: 20px;
     // font-family: 'ArcadeClassic', sans-serif;
     // font-family: 'Cyrillic Pixel-7', sans-serif;
     &:hover{
@@ -24,17 +25,36 @@
 }
 .form-input{
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 .rights{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 5px;
 }
 .ticketName{
     align-self: center;
+    font-size: 25px;
 }
 .cheers{
     align-self: center;
+}
+.poor-admin{
+    background: url(../../common/imgs/Before.png) no-repeat;
+    width: 150px;
+    height: 200px;
+    background-size: contain;
+    cursor: pointer;
+    &:hover{
+        background: url(../../common/imgs/AfterNew.png) no-repeat;
+        background-size: contain;   
+        width: 150px;
+    height: 200px;
+    }
 }
 .ticket{
     border: none;

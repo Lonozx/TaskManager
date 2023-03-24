@@ -9,6 +9,7 @@ import { Routes, Route, Router } from "react-router-dom";
 import Header from "./common/Header/Header";
 import Footer from "./common/Footer/Footer";
 import Employees from "./pages/Employees";
+import BackToTop from "./common/Helpful/BackToTop";
 
 function App() {
   // const [task, setTask] = useState([])
@@ -38,6 +39,7 @@ function App() {
           <Route path="/employees" element={<Employees />} />
         </Routes>
         <Footer />
+        <BackToTop />
 
         {/* <Main/>
       <Cart/> */}

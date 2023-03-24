@@ -8,6 +8,9 @@
     // font-family: 'Cyrillic Pixel-7', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     overflow-x: hidden;
     padding: 10px;
@@ -16,7 +19,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: url(./common/imgs/cords.jpg) no-repeat center center fixed;
+    background: url(./common/imgs/corda.jpg) no-repeat center center fixed;
   
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -24,4 +27,23 @@
   background-size: cover;
     
     // background: blanchedalmond;
+}
+
+.back-button {
+    position: fixed;
+    /* right: 10px; */
+    top: 88%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    left: 10%;
+    color: rgba(17, 16, 16, 0.651);
+    background: rgba(69, 116, 168, 0.685);
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
