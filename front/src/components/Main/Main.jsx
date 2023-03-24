@@ -57,17 +57,26 @@ export default function Main() {
   }
   const publishTask = async () => {
     try {
-      await addDoc(taskCollectionReference, {
-        title: title,
-        description: description,
-        office: office,
-        isDone: isdone,
-      });
-      accept();
-      setTitle("");
-      setDescription("");
-      setOffice("");
-      // getTaskList();
+      if (title !== "" && description !== "") {
+        await addDoc(taskCollectionReference, {
+          title: title,
+          description: description,
+          office: office,
+          isDone: isdone,
+        });
+        accept();
+        setTitle("");
+        setDescription("");
+        setOffice("");
+        // getTaskList();
+      } else {
+        console.log("Поля пусті, заповніть їх!");
+        return (
+          <div className="err-sec">
+            <p className="err">Поле пусте, заповніть будь ласка!</p>
+          </div>
+        );
+      }
     } catch (err) {
       console.error(err);
     }

@@ -15,11 +15,17 @@
         justify-content: center;
         align-items: center;
         background: white;
+        @media (max-width:768px){
+            width: 300px;
+        }
     }
 }
 
 .photo-avatar{
     width: 400px;
+    @media (max-width:768px){
+        width: 290px;
+    }
     &:hover{
         transform: scale(1.03);
         transition: 0.1s ease-in-out;

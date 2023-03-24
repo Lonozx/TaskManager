@@ -3,7 +3,8 @@ import "./footer.scss";
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>Всі права збережені за власником. 1999-2023</p>
+      <p className="foot-tex">Всі права збережені за власником.</p>
+      <p>1999-2023</p>
       <form action="" netlify className="footer__form">
         <input
           className="ticket footer__form--white"
