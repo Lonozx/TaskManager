@@ -15,13 +15,16 @@
     "react-transition-group": "^4.4.5",
     "sass": "^1.59.3",
     "swiper": "^9.1.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "http://Lonozx.github.io/TaskManager"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
   },
   "eslintConfig": {
     "extends": [

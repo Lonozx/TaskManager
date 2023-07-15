@@ -5,10 +5,10 @@ import HomeSwipe from "../components/swipers/swiper_home";
 export default function Homepage() {
   return (
     <div className="page-wrapper">
-      <img
+      {/* <img
         className="image-board"
         src="https://scontent.fods1-1.fna.fbcdn.net/v/t39.30808-6/271800785_1382167525568938_4854358669842992514_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=kRp3UZA7kNUAX-EMula&_nc_oc=AQmg9LJTNTYGHVtWyapy8DLbnC8DF7IfUWtCQg9nZnbSqBwbhpuiudEfHk-NlwBtX1g&_nc_ht=scontent.fods1-1.fna&oh=00_AfDTQyUBu6f-L3YiWzjvROcU-bQu_nvizAAIpfsvmds0Lg&oe=64223EAB"
-      ></img>
+      ></img> */}
       <div className="containerh">
         <HomeSwipe />
         <div className="containerh__themes">
